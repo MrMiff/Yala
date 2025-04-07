@@ -1,0 +1,26 @@
+{
+  "name": "yala-auto-bridge",
+  "version": "1.0.0",
+  "description": "Auto bridge script for YU token between EVM testnet and Solana Devnet using Yala Bridge.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bridge",
+    "yala",
+    "evm",
+    "solana",
+    "token",
+    "automation",
+    "testnet"
+  ],
+  "author": "your-name-or-alias",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0",
+    "inquirer": "^9.2.8"
+  }
+}
